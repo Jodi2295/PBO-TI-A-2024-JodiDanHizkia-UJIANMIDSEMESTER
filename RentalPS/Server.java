@@ -121,6 +121,7 @@ public class Server {
                 case "8":
                     isRunning = false;
                     System.out.println("Terima kasih ya sudah menggunakan aplikasi");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Yah salah pilih menu.");
