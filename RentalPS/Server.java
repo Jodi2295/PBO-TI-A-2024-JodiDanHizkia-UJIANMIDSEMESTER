@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Server {
     public static Scanner scanner = new Scanner(System.in);
-    public static List<User> Users = new ArrayList<>();
-    public static List<Rental> Rentals = new ArrayList<>();
+    public static List<User> users = new ArrayList<>();
+    public static List<Rental> rentals = new ArrayList<>();
     public static List<String> inventory = new ArrayList<>();
     public static List<Payment> financialReport = new ArrayList<>();
     public static List<String> notifications = notifications = new ArrayList<>();
